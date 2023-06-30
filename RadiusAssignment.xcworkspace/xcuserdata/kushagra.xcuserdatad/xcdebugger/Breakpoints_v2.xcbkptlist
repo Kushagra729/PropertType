@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "E774E5B8-18AC-4C48-A5C9-66BA961F090F"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "62C75D7C-0EB0-4E58-9471-83F70B453121"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "RadiusAssignment/Controller/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "54"
+            endingLineNumber = "54"
+            landmarkName = "performExclusions(exclusions:selectedFacilityId:selectedOptionId:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "62C75D7C-0EB0-4E58-9471-83F70B453121 - ae0a83c65969b437"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "RadiusAssignment.ViewController.performExclusions(exclusions: Swift.Array&lt;Swift.Array&lt;RadiusAssignment.Exclusion&gt;&gt;, selectedFacilityId: Swift.String, selectedOptionId: Swift.Int) -&gt; ()"
+                  moduleName = "RadiusAssignment"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kushagra/Documents/Playground/RadiusAssignment/RadiusAssignment/RadiusAssignment/Controller/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "54"
+                  endingLineNumber = "54"
+                  offsetFromSymbolStart = "2688">
+               </Location>
+               <Location
+                  uuid = "62C75D7C-0EB0-4E58-9471-83F70B453121 - ae0a83c65969b437"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "RadiusAssignment.ViewController.performExclusions(exclusions: Swift.Array&lt;Swift.Array&lt;RadiusAssignment.Exclusion&gt;&gt;, selectedFacilityId: Swift.String, selectedOptionId: Swift.Int) -&gt; ()"
+                  moduleName = "RadiusAssignment"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kushagra/Documents/Playground/RadiusAssignment/RadiusAssignment/RadiusAssignment/Controller/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "54"
+                  endingLineNumber = "54"
+                  offsetFromSymbolStart = "2700">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "EF2F798D-6217-4F47-AD5D-77322E7A132A"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "RadiusAssignment/Controller/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "62"
+            endingLineNumber = "62"
+            landmarkName = "numberOfSections(in:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "EF2F798D-6217-4F47-AD5D-77322E7A132A - fa142e2feaffdc75"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "RadiusAssignment.ViewController.numberOfSections(in: __C.UITableView) -&gt; Swift.Int"
+                  moduleName = "RadiusAssignment"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kushagra/Documents/Playground/RadiusAssignment/RadiusAssignment/RadiusAssignment/Controller/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "63"
+                  endingLineNumber = "63"
+                  offsetFromSymbolStart = "52">
+               </Location>
+               <Location
+                  uuid = "EF2F798D-6217-4F47-AD5D-77322E7A132A - fa142e2feaffdc54"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "RadiusAssignment.ViewController.numberOfSections(in: __C.UITableView) -&gt; Swift.Int"
+                  moduleName = "RadiusAssignment"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kushagra/Documents/Playground/RadiusAssignment/RadiusAssignment/RadiusAssignment/Controller/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "62"
+                  endingLineNumber = "62"
+                  offsetFromSymbolStart = "52">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B8A8EC9A-62D5-4E0F-B6D4-CC89F3556382"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "RadiusAssignment/Controller/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "77"
+            endingLineNumber = "77"
+            landmarkName = "tableView(_:cellForRowAt:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "B8A8EC9A-62D5-4E0F-B6D4-CC89F3556382 - 3a623b4a223b028d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "RadiusAssignment.ViewController.tableView(_: __C.UITableView, cellForRowAt: Foundation.IndexPath) -&gt; __C.UITableViewCell"
+                  moduleName = "RadiusAssignment"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kushagra/Documents/Playground/RadiusAssignment/RadiusAssignment/RadiusAssignment/Controller/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "78"
+                  endingLineNumber = "78"
+                  offsetFromSymbolStart = "172">
+               </Location>
+               <Location
+                  uuid = "B8A8EC9A-62D5-4E0F-B6D4-CC89F3556382 - 3a623b4a223b02ae"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "RadiusAssignment.ViewController.tableView(_: __C.UITableView, cellForRowAt: Foundation.IndexPath) -&gt; __C.UITableViewCell"
+                  moduleName = "RadiusAssignment"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kushagra/Documents/Playground/RadiusAssignment/RadiusAssignment/RadiusAssignment/Controller/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "77"
+                  endingLineNumber = "77"
+                  offsetFromSymbolStart = "172">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "0DA74ECC-11C2-4F83-9E85-C56EC71D0526"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "RadiusAssignment/Controller/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "83"
+            endingLineNumber = "83"
+            landmarkName = "tableView(_:titleForHeaderInSection:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "0DA74ECC-11C2-4F83-9E85-C56EC71D0526 - 48619546f2b9abca"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "RadiusAssignment.ViewController.tableView(_: __C.UITableView, titleForHeaderInSection: Swift.Int) -&gt; Swift.Optional&lt;Swift.String&gt;"
+                  moduleName = "RadiusAssignment"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kushagra/Documents/Playground/RadiusAssignment/RadiusAssignment/RadiusAssignment/Controller/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "84"
+                  endingLineNumber = "84"
+                  offsetFromSymbolStart = "44">
+               </Location>
+               <Location
+                  uuid = "0DA74ECC-11C2-4F83-9E85-C56EC71D0526 - 48619546f2b9abe5"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "RadiusAssignment.ViewController.tableView(_: __C.UITableView, titleForHeaderInSection: Swift.Int) -&gt; Swift.Optional&lt;Swift.String&gt;"
+                  moduleName = "RadiusAssignment"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kushagra/Documents/Playground/RadiusAssignment/RadiusAssignment/RadiusAssignment/Controller/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "83"
+                  endingLineNumber = "83"
+                  offsetFromSymbolStart = "44">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
