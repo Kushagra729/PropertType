@@ -6,14 +6,15 @@
 //
 
 import Foundation
-import Alamofire
-import ObjectMapper
 
 
+//MARK: - Class
 class APIServices: NSObject{
+    
     static let shared = APIServices()
     private let sourcesURL = URL(string: "https://my-json-server.typicode.com/iranjith4/ad-assignment/db")!
     
+ //MARK: - API GET Method(s)
     func apiToGetPropertyData(completion : @escaping (Property) -> ()){
         
         URLSession.shared.dataTask(with: sourcesURL) { (data, urlResponse, error) in

@@ -8,12 +8,17 @@
 import UIKit
 
 class ViewController: UIViewController {
+
+    //MARK: - Variable(s)
+    
     var facilities = [Facility]()
     var exclusion = [[Exclusion]]()
     var propertTypeSelected = false
     
+    //MARK: - Outlets(s)
     @IBOutlet weak var facilityTableView: UITableView!
     
+    //MARK: - Override Method(s)
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -23,6 +28,8 @@ class ViewController: UIViewController {
         facilityTableView.dataSource = self
         
     }
+    
+    //MARK: - UserDefined Method(s)
     
     func callAPI() {
         APIServices.shared.apiToGetPropertyData { Property in
@@ -57,6 +64,8 @@ class ViewController: UIViewController {
     }
 }
 
+//MARK: - Extentions(s)
+
 extension ViewController: UITableViewDelegate,UITableViewDataSource{
     func numberOfSections(in tableView: UITableView) -> Int {
         if facilities.count > 0{
@@ -88,6 +97,7 @@ extension ViewController: UITableViewDelegate,UITableViewDataSource{
         return 60.0
     }
 }
+
 extension ViewController: FacilityTableViewCellDelegate{
     func propertyTypeSelected(selectedFacilityId: String, selectedOptionId: Int) {
         propertTypeSelected = true

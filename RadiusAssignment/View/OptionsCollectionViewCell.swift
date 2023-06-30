@@ -8,6 +8,8 @@
 import UIKit
 
 class OptionsCollectionViewCell: UICollectionViewCell {
+    
+    //MARK: - Outlet(s)
     @IBOutlet weak var name : UILabel!
     @IBOutlet weak var icon : UIImageView!
     @IBOutlet weak var bgView : UIView!{
@@ -17,6 +19,8 @@ class OptionsCollectionViewCell: UICollectionViewCell {
             bgView.layer.borderColor = UIColor.blue.cgColor
         }
     }
+    
+    //MARK: - Override(s)
     
     override var isSelected: Bool {
         didSet {
@@ -29,6 +33,8 @@ class OptionsCollectionViewCell: UICollectionViewCell {
         // Initialization code
         bgView.layer.cornerRadius = bgView.frame.height / 2
     }
+    
+    //MARK: - User Defined Private Method(s)
     
     private func updateAppearance() {
         if isSelected {

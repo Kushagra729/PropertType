@@ -7,11 +7,15 @@
 
 import UIKit
 
+//MARK: - Protocol
+
 protocol FacilityTableViewCellDelegate {
     func propertyTypeSelected(selectedFacilityId:String, selectedOptionId: Int)
 }
+
 class FacilityTableViewCell: UITableViewCell {
     
+//MARK: - Outlet(s)
     @IBOutlet weak var optionsCV: UICollectionView!
     
     var delegate : FacilityTableViewCellDelegate?
@@ -19,6 +23,7 @@ class FacilityTableViewCell: UITableViewCell {
     var exclusions = [[Exclusion]]()
     var selectedIndexPath: IndexPath? = nil
     
+ //MARK: - Override Method(s)
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
@@ -32,6 +37,8 @@ class FacilityTableViewCell: UITableViewCell {
         
     }
 }
+
+//MARK: - Extention(s)
 
 extension FacilityTableViewCell: UICollectionViewDelegate, UICollectionViewDataSource,UICollectionViewDelegateFlowLayout{
     
